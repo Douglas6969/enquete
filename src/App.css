@@ -1,0 +1,43 @@
+#root{
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body{
+  background: rgb(96,0,111);
+  background: radial-gradient(circle, rgba(96,0,111,1) 0%, rgba(0,0,0,1) 100%);
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+header{
+  color:#fff;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 70%;
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+header nav a{
+  color:#ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: border-color 0.5s ease;
+  border-bottom: 3px solid transparent;
+}
+
+header nav a:hover{
+  border-bottom: 3px solid rebeccapurple;
+}
+
+main{
+  display: flex;
+  flex: 1;
+}
